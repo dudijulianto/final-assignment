@@ -88,6 +88,503 @@
           <span class="visually-hidden">Next</span>
         </button>
 
+        <div class="widget-container">
+          <div tabinex="-1" style="z-index:400" class="widget-hotel">
+            <div class="widget-title">
+              <div class="product">
+                <div><span class="icon-container hotel"><i class="tix tixion tixion-hotel icon">::before</i></span></div>
+                <h1 class="text-title">Booking Hotel Murah Online dengan Harga Promo</h1>
+              </div>
+              <div>
+                <button type="button" class="button flat button capitalize"><span class="button-last-search">Pencarian Terakhir</span><i class="tix tixicon tixicon-right1"></i></button>
+              </div>
+            </div>
+            <div class="widget-section">
+              <div class="widget-section-item section-left">
+                <div class="widget-input">
+                  <div class="widget-input">
+                    <label class="label">Tujuan</label>
+                    <div class="input-container">
+                      <i class="tix tixicon tixicon-location icon">::before</i>
+                      <input id="destination-input" value="" placeholder="Mau nginep ke mana?" name="destination" autocomplete="off" class="destination-input input">
+                    </div>
+                    <div id="destination">
+                      <div role="dialog" aria-modal="true" class="widget-popup " tabindex="-1" style="left:0;transition:all 140ms ease-in;opacity:0;visibility:hidden;margin-top:-35px">
+                        <div class="content">
+                          <div class="popup-content">
+                            <div class="destination-popup-container">
+                              <div class="header">Popular</div>
+                              <div id="autocomplete-list-container" class="list">
+                                <div class="no-result-container">
+                                  <div class="no-result-header">Oops, nggak ada hasil nih</div>
+                                  <div class="no-result-subheader">Coba ubah kata kunci untuk hasil yang lebih baik, ya.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tix-pop-over top-bottom hide" style="width:150px;max-height:200px">
+                      ::before
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="widget-section-item section-center">
+                <div class="staying-date-input-wrapper">
+                  <div class="widget-input">
+                    <label class="label">Check-in</label>
+                    <div class="input-container">
+                      <i class="tix tixicon tixicon-checkin icon">::before</i>
+                      <input id="date-input-startdate" value="Rab, 29 Jun 2022" name="checkinDate" readonly="" autocomplete="off" class="date-input input ">
+                    </div>
+                  <div id="checkinDate">
+                    <div role="dialog" aria-modal="true" class="widget-popup " tabindex="-1" style="left:0;transition:all 140ms ease-in;opacity:0;visibility:hidden;margin-top:-35px">
+                      <div class="content">
+                        <div class="popup-content">
+                          <div class="date-range-popup-container">
+                            <div class="range-picker ">
+                              <span class="nav left disabled"><i class="tix tixicon tixicon-left">::before</i>"Mei"</span>
+                              <span class="nav right">"Agu"<i class="tix tixicon tixicon-right1">::before</i></span>
+                              <div style="overflow-x:hidden">
+                                <div style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform; transform: translate(0%, 0px);" class="react-swipeable-view-container">
+                                  <div style="width:100%;-webkit-flex-shrink:0;flex-shrink:0;overflow:auto" aria-hidden="false" data-swipeable="true">
+                                    <div class="DayPicker" lang="id">
+                                      <div class="DayPicker-wrapper" tabindex="0">
+                                        <div class="DayPicker-NavBar">
+                                          <span tabindex="0" role="button" aria-label="Sebelumnya" class="DayPicker-NavButton DayPicker-NavButton--prev DayPicker-NavButton--interactionDisabled"></span>
+                                          <span tabindex="0" role="button" aria-label="Berikutnya" class="DayPicker-NavButton DayPicker-NavButton--next"></span>
+                                        </div>
+                                        <div class="DayPicker-Months">
+                                          <div class="DayPicker-Month" role="grid">
+                                            <div class="DayPicker-Caption" role="heading" aria-live="polite">
+                                              <div>Juni 2022</div>
+                                            </div>
+                                            <div class="DayPicker-Weekdays" role="rowgroup">
+                                              <div class="DayPicker-WeekdaysRow" role="row">
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Minggu">Min</abbr>
+                                                </div>
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Senin">Sen</abbr>
+                                                </div>
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Selasa">Sel</abbr>
+                                                </div>
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Rabu">Rab</abbr>
+                                                </div>
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Kamis">Kam</abbr>
+                                                </div>
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Jumat">Jum</abbr>
+                                                </div>
+                                                <div class="DayPicker-Weekday" role="columnheader">
+                                                  <abbr title="Sabtu">Sab</abbr>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="DayPicker-Body" role="rowgroup">
+                                              <div class="DayPicker-Week" role="row">
+                                                <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--outside"></div>
+                                                <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                                <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                                <div class="DayPicker-Day" tabindex="0" role="gridcell" aria-label="Wed Jun 01 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body ">1</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jun 02 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">2</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jun 03 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">3</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jun 04 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">4</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Week" role="row">
+                                                <div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jun 05 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">5</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jun 06 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">6</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jun 07 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">7</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jun 08 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">8</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jun 09 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">9</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jun 10 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">10</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jun 11 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">11</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Week" role="row">
+                                                <div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jun 12 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">12</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jun 13 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">13</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jun 14 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">14</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jun 15 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">15</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jun 16 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">16</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jun 17 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">17</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jun 18 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">18</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Week" role="row">
+                                                <div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jun 19 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">19</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jun 20 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod">
+                                                      <div class="day-mod-head"></div>
+                                                      <div class="day-mod-body">20</div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jun 21 2022" aria-disabled="false" aria-selected="false">
+                                                  <div class="day-mod-container">
+                                                    <div class="day-mod"><div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">21</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jun 22 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">22</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jun 23 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">23</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jun 24 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">24</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jun 25 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">25</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="DayPicker-Week" role="row">
+                                              <div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jun 26 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">26</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jun 27 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">27</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jun 28 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">28</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day DayPicker-Day--startDate DayPicker-Day--today" tabindex="-1" role="gridcell" aria-label="Wed Jun 29 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head">Hari ini</div>
+                                                    <div class="day-mod-body">29</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="DayPicker-Day DayPicker-Day--endDate" tabindex="-1" role="gridcell" aria-label="Thu Jun 30 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container">
+                                                  <div class="day-mod">
+                                                    <div class="day-mod-head"></div>
+                                                    <div class="day-mod-body">30</div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="DayPicker-Month" role="grid">
+                                          <div class="DayPicker-Caption" role="heading" aria-live="polite">
+                                            <div>Juli 2022</div>
+                                          </div>
+                                          <div class="DayPicker-Weekdays" role="rowgroup">
+                                            <div class="DayPicker-WeekdaysRow" role="row">
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Minggu">Min</abbr>
+                                              </div>
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Senin">Sen</abbr>
+                                              </div>
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Selasa">Sel</abbr>
+                                              </div>
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Rabu">Rab</abbr>
+                                              </div>
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Kamis">Kam</abbr>
+                                              </div>
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Jumat">Jum</abbr>
+                                              </div>
+                                              <div class="DayPicker-Weekday" role="columnheader">
+                                                <abbr title="Sabtu">Sab</abbr>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Body" role="rowgroup">
+                                            <div class="DayPicker-Week" role="row">
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--outside"></div>
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div>
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--startDate DayPicker-Day--today DayPicker-Day--outside"></div>
+                                              <div aria-disabled="true" class="DayPicker-Day DayPicker-Day--endDate DayPicker-Day--outside"></div>
+                                              <div class="DayPicker-Day" tabindex="0" role="gridcell" aria-label="Fri Jul 01 2022" aria-disabled="false" aria-selected="false">
+                                                <div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div>
+                                                <div class="day-mod-body">1</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 02 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">2</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="DayPicker-Week" role="row">
+                                          <div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 03 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">3</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 04 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">4</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 05 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">5</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 06 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">6</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 07 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">7</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 08 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">8</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 09 2022" aria-disabled="false" aria-selected="false">
+                                            <div class="day-mod-container">
+                                              <div class="day-mod">
+                                                <div class="day-mod-head"></div>
+                                                <div class="day-mod-body">9</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="DayPicker-Week" role="row">
+                                          <div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 10 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container">
+                                            <div class="day-mod">
+                                              <div class="day-mod-head"></div>
+                                              <div class="day-mod-body">10</div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 11 2022" aria-disabled="false" aria-selected="false">
+                                          <div class="day-mod-container">
+                                            <div class="day-mod">
+                                              <div class="day-mod-head"></div>
+                                              <div class="day-mod-body">11</div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 12 2022" aria-disabled="false" aria-selected="false">
+                                          <div class="day-mod-container">
+                                            <div class="day-mod">
+                                              <div class="day-mod-head"></div>
+                                              <div class="day-mod-body">12</div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 13 2022" aria-disabled="false" aria-selected="false">
+                                          <div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">13</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 14 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">14</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 15 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">15</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 16 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">16</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 17 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">17</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 18 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">18</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 19 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">19</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 20 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">20</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 21 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">21</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 22 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">22</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 23 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">23</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 24 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">24</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 25 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">25</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 26 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">26</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 27 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">27</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 28 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">28</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 29 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">29</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 30 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">30</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 31 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">31</div></div></div></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div></div></div></div></div></div></div><div class="holiday-dates"><div class="holiday-dates-left"></div><div class="holiday-dates-right">&nbsp;</div></div></div></div></div><div class="toggle show-cheapest"><div class="cheapest-legend"></div><label class="text-toggle">Tampilkan tanggal menginap termurah</label><div class="switch"><label><input type="checkbox" checked=""><div class="lever"></div></label></div></div></div></div></div></div></div></div><div class="tix-pop-over top-bottom hide" style="width:150px;max-height:200px"></div></div><div class="night-counter-container"><div class="night-content"><i class="tix tixicon tixicon-hotel-night night-icon"></i><span>1</span></div><div class="night-content">Malam</div></div><div class="widget-input"><label class="label">Check-out</label><div class="input-container"><i class="tix tixicon tixicon-checkout icon"></i><input id="date-input-enddate" value="Kam, 30 Jun 2022" name="checkoutDate" readonly="" autocomplete="off" class="date-input input "></div><div id="checkoutDate"><div role="dialog" aria-modal="true" class="widget-popup " tabindex="-1" style="left:0;transition:all 140ms ease-in;opacity:0;visibility:hidden;margin-top:-35px"><div class="content"><div class="popup-content"><div class="date-range-popup-container"><div class="range-picker "><span class="nav left disabled"><i class="tix tixicon tixicon-left"></i> Mei</span><span class="nav right ">Agu <i class="tix tixicon tixicon-right1"></i></span><div style="overflow-x:hidden"><div style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform; transform: translate(0%, 0px);" class="react-swipeable-view-container"><div style="width:100%;-webkit-flex-shrink:0;flex-shrink:0;overflow:auto" aria-hidden="false" data-swipeable="true"><div class="DayPicker" lang="id"><div class="DayPicker-wrapper" tabindex="0"><div class="DayPicker-NavBar"><span tabindex="0" role="button" aria-label="Sebelumnya" class="DayPicker-NavButton DayPicker-NavButton--prev DayPicker-NavButton--interactionDisabled"></span><span tabindex="0" role="button" aria-label="Berikutnya" class="DayPicker-NavButton DayPicker-NavButton--next"></span></div><div class="DayPicker-Months"><div class="DayPicker-Month" role="grid"><div class="DayPicker-Caption" role="heading" aria-live="polite"><div>Juni 2022</div></div><div class="DayPicker-Weekdays" role="rowgroup"><div class="DayPicker-WeekdaysRow" role="row"><div class="DayPicker-Weekday" role="columnheader"><abbr title="Minggu">Min</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Senin">Sen</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Selasa">Sel</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Rabu">Rab</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Kamis">Kam</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Jumat">Jum</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Sabtu">Sab</abbr></div></div></div><div class="DayPicker-Body" role="rowgroup"><div class="DayPicker-Week" role="row"><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="0" role="gridcell" aria-label="Wed Jun 01 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">1</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Thu Jun 02 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">2</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Fri Jun 03 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">3</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sat Jun 04 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">4</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sun Jun 05 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">5</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Mon Jun 06 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">6</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Tue Jun 07 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">7</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Wed Jun 08 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">8</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Thu Jun 09 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">9</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Fri Jun 10 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">10</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sat Jun 11 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">11</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sun Jun 12 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">12</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Mon Jun 13 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">13</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Tue Jun 14 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">14</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Wed Jun 15 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">15</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Thu Jun 16 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">16</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Fri Jun 17 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">17</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sat Jun 18 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">18</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sun Jun 19 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">19</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Mon Jun 20 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">20</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Tue Jun 21 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">21</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Wed Jun 22 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">22</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Thu Jun 23 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">23</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Fri Jun 24 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">24</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sat Jun 25 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">25</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sun Jun 26 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">26</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Mon Jun 27 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">27</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jun 28 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">28</div></div></div></div><div class="DayPicker-Day DayPicker-Day--startDate DayPicker-Day--today" tabindex="-1" role="gridcell" aria-label="Wed Jun 29 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head">Hari ini</div><div class="day-mod-body ">29</div></div></div></div><div class="DayPicker-Day DayPicker-Day--endDate" tabindex="-1" role="gridcell" aria-label="Thu Jun 30 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">30</div></div></div></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div></div></div></div><div class="DayPicker-Month" role="grid"><div class="DayPicker-Caption" role="heading" aria-live="polite"><div>Juli 2022</div></div><div class="DayPicker-Weekdays" role="rowgroup"><div class="DayPicker-WeekdaysRow" role="row"><div class="DayPicker-Weekday" role="columnheader"><abbr title="Minggu">Min</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Senin">Sen</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Selasa">Sel</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Rabu">Rab</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Kamis">Kam</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Jumat">Jum</abbr></div><div class="DayPicker-Weekday" role="columnheader"><abbr title="Sabtu">Sab</abbr></div></div></div><div class="DayPicker-Body" role="rowgroup"><div class="DayPicker-Week" role="row"><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--startDate DayPicker-Day--today DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--endDate DayPicker-Day--outside"></div><div class="DayPicker-Day" tabindex="0" role="gridcell" aria-label="Fri Jul 01 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">1</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 02 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">2</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 03 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">3</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 04 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">4</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 05 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">5</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 06 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">6</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 07 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">7</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 08 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">8</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 09 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">9</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 10 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">10</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 11 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">11</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 12 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">12</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 13 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">13</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 14 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">14</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 15 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">15</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 16 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">16</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 17 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">17</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 18 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">18</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 19 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">19</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 20 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">20</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 21 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">21</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 22 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">22</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Sat Jul 23 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">23</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends" tabindex="-1" role="gridcell" aria-label="Sun Jul 24 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">24</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Mon Jul 25 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">25</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Tue Jul 26 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">26</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Wed Jul 27 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">27</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Thu Jul 28 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">28</div></div></div></div><div class="DayPicker-Day" tabindex="-1" role="gridcell" aria-label="Fri Jul 29 2022" aria-disabled="false" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">29</div></div></div></div><div class="DayPicker-Day DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sat Jul 30 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">30</div></div></div></div></div><div class="DayPicker-Week" role="row"><div class="DayPicker-Day DayPicker-Day--weekends DayPicker-Day--disabled" tabindex="-1" role="gridcell" aria-label="Sun Jul 31 2022" aria-disabled="true" aria-selected="false"><div class="day-mod-container"><div class="day-mod"><div class="day-mod-head"></div><div class="day-mod-body ">31</div></div></div></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div><div aria-disabled="true" class="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"></div></div></div></div></div></div></div><div class="holiday-dates"><div class="holiday-dates-left"></div><div class="holiday-dates-right">&nbsp;</div></div></div></div></div><div class="toggle show-cheapest"><div class="cheapest-legend"></div><label class="text-toggle">Tampilkan tanggal menginap termurah</label><div class="switch"><label><input type="checkbox" checked=""><div class="lever"></div></label></div></div></div></div></div></div></div></div><div class="tix-pop-over top-bottom hide" style="width:150px;max-height:200px"></div></div></div>
+              </div>
+              <div class="widget-section-item section-right"></div>
+            </div>
+            <div class="button-container"></div>
+          </div>
+        </div>
+
         <div class="galeri" margin="">
           <div class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
