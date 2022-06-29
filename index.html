@@ -1,10 +1,150 @@
-<!DOCTYPE html>
-<html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
-    <p>tes 1</p>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../final-assignment/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../final-assignment/fontawesome/css/all.min.css">
+    <title>TRAVELOLO</title>
+  </head>
+  <body>
 
-</body>
+    <!--Awal Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+      
+      <div class="container">
+        <!-- logo travelolo -->
+        <a class="navbar-brand" href="#">
+          <img src="../final-assignment/images/logo.jpeg" alt="logo" width="50" height="50" class="rounded me-2">
+          <strong>Travelolo</strong>
+        </a>
+        <!-- toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu pada navbar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- menu search -->
+          <form class="d-flex my-4 my-lg-0">
+            <input class="form-control me-4" type="search" placeholder="Cari Hotel" aria-label="Search">
+            <button class="btn btn-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <!-- menu nav -->
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formpemesanan.html">Pesanan Saya</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notifikasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signInUp.html">Sign In / Sign Up</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+      <!--Akhir Navbar-->
+
+      <!--Awal Carousel-->
+    <div class="carousel">
+
+      <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="true">
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner" text="center">
+          <div class="carousel-item active">
+            <img src="../final-assignment/images/img 1.jpeg" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../final-assignment/images/img 2.jpeg" alt="img">
+          </div>
+          <div class="carousel-item">
+            <img src="../final-assignment/images/img 3.jpeg" alt="img">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 mt-5 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="../final-assignment/images/hotel1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hotel A</h5>
+                <p class="card-text">Hotel Asri terletak di pusak kota</p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../final-assignment/images/hotel2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hotel B</h5>
+                <p class="card-text">Akomodasi murah bagi para traveler</p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../final-assignment/images/hotel3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hotel C</h5>
+                <p class="card-text">Pilihan tepat untuk liburan bersama keluarga</p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="../final-assignment/images/hotel4.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hotel D</h5>
+                <p class="card-text">Hotel strategis dengan wisata dalam kota</p>
+                <a href="#" class="btn btn-primary">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!--Akhir Carousel-->
+
+    <div id="copyright">
+      <div class="wrapper">
+          &copy; 2022. <b>Travelolo</b> All Rights Reserved.
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
 </html>
