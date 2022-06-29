@@ -34,3 +34,10 @@ body {
 .galeri{
     padding:3%;
 }
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    margin-top: 50px;
+}
